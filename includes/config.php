@@ -1,0 +1,16 @@
+<?php
+define("HOST_NAME","localhost");
+define("DB_USER","root");
+define("DB_PASS","");
+define("DB_NAME","picshop");
+define("DB_CATEGORIES","categories");
+define("DB_IMAGES","images");
+define("DB_ORDERS","orders");
+define("DB_CART","cartcounter");
+define("DB_USERS","users");
+define("DB_PASS_RESET","pass_reset_request");
+define("MAX_POST",9);
+define("MAX_LAST_POST",10);
+define("REMEMBER_TIME",300);
+//define("MY_ADD","http://localhost:8080/backend-web/picShop");
+?>

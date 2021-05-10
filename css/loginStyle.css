@@ -1,0 +1,84 @@
+@import "style.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+@font-face {
+
+    font-family: yekan;
+
+    src: url("../fonts/yekan/Yekan.eot") format("eot");
+
+    src: url("../fonts/yekan/Yekan.woff") format("woff");
+
+    src : url("../fonts/yekan/Yekan.ttf") format("ttf");
+
+    font-weight: 100;
+
+    font-style: normal;
+
+}
+
+
+* ,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: yekan;
+    font-weight: 100;
+}
+.loginBox
+{
+    border-radius: 1px;
+    border:solid 2px rgba(162,160,160,.4);
+    padding: 15px;
+}
+.loginBox input
+{
+    border: none;
+    border-bottom: 1px solid #c48f56;
+    border-radius: 0;
+}
+.loginBox input::placeholder
+{
+    text-align: right;
+}
+
+.form-control:focus
+{
+    border: 0;
+    border-bottom: 1px solid #c48f56;
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+}
+.signupBox
+{
+    border-radius: 5px;
+    border:solid 2px goldenrod;
+    padding: 10px;
+    transform: translateY(50%);
+}
+
+.footer
+{
+    position: static;
+}
+input:-webkit-autofill
+{
+    -webkit-ba-fill-color: black !important;
+    -webkit-background-clip: text !important;
+}
+
+.loginBox a
+{
+    color: #ff0303;
+}
+.loginBox a:hover
+{
+    color: #e9a5a5;
+}
